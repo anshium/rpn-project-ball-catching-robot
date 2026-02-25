@@ -10,8 +10,7 @@ A robotics simulation project demonstrating high-speed projectile interception u
 
 ## Project Overview
 
-> **[PLACEHOLDER: Project Hero GIF]**  
-> *Target Image: A smooth recording of the PyBullet simulation where the ball is launched, its trajectory is visualized, and the robot strafes diagonally to catch it perfectly.*
+<img src="demo.gif" width="100%" alt="Project Demo">
 
 The core challenge of this project is to bridge the gap between **prediction** and **execution**. While the physics of a falling ball are predictable, navigating a robot to the exact interception point in a crowded environment requires sophisticated control strategies.
 
@@ -35,8 +34,6 @@ Instead of simple PID, we use **Model Predictive Control**. At every 100ms, the 
 2.  Solves a Quadratic Programming (QP) problem to find the smoothest velocities.
 3.  Ensures the robot never steps within the "danger zone" of an obstacle.
 
-> **[PLACEHOLDER: MPC Path Visualization]**  
-> *Target Image: A screenshot from `main.ipynb` or the GUI showing the red "planned trajectory" lines bending around obstacles.*
 
 ### 3. The Environment (`mechanum_env.py`)
 Hardware-abstracted interface for the robot, managing PyBullet sensors, motor commands, and simulation stepping.

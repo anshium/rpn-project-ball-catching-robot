@@ -295,6 +295,8 @@ if __name__ == "__main__":
     p.setGravity(0, 0, sim_gravity_z, physicsClientId=physics_client)
     p.setRealTimeSimulation(0) 
     
+    input("Enter to start:")
+
     pb_sim_time_step = 1./240.
     p.setTimeStep(pb_sim_time_step, physicsClientId=physics_client)
 
