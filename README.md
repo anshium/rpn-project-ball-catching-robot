@@ -45,7 +45,7 @@ Hardware-abstracted interface for the robot, managing PyBullet sensors, motor co
 1.  **Clone the repository**:
     ```bash
     git clone https://github.com/your-username/rpn-project-ball-catching-robot.git
-    cd rpn-project-ball-catching-robot
+    cd rpn-project-ball-catching-robot/src
     ```
 
 2.  **Install dependencies**:
@@ -57,7 +57,7 @@ Hardware-abstracted interface for the robot, managing PyBullet sensors, motor co
 
 ## Running the Simulation
 
-To launch the full interception demo:
+To launch the full interception demo (inside src directory):
 ```bash
 python mechanum_env.py
 ```
